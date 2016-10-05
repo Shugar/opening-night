@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="231px" height="233px" viewBox="0 0 231 233" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>Play Button</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="2.74832589%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#1DE4FE" offset="0%"></stop>
+            <stop stop-color="#178DFE" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="73.5" cy="73.5" r="73.5"></circle>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="22" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.881312274 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage-(Quote-1)" transform="translate(-585.000000, -1726.000000)">
+            <g id="CLIPS-SECTION" transform="translate(0.000000, 1429.000000)">
+                <g id="Play-Button" transform="translate(627.000000, 335.000000)">
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <use fill-opacity="0.85" fill="#000000" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    </g>
+                    <g id="Group-22" transform="translate(56.000000, 35.000000)" fill="#FFFFFF">
+                        <polygon id="Triangle" points="0 77 0 0 49 38.5"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

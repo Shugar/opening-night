@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="83px" height="83px" viewBox="0 0 83 83" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>Play Hover</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="2.74832589%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#1DE4FE" offset="0%"></stop>
+            <stop stop-color="#178DFE" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage-(Quote-1)" transform="translate(-1152.000000, -2258.000000)">
+            <g id="CLIPS-SECTION" transform="translate(0.000000, 1429.000000)">
+                <g id="Video-Controller" transform="translate(24.000000, 776.000000)">
+                    <g id="Video-4" transform="translate(1017.000000, 0.000000)">
+                        <g id="Play-Hover" transform="translate(111.000000, 53.000000)">
+                            <circle id="Oval" fill="#000000" cx="41.5" cy="41.5" r="41.5"></circle>
+                            <g id="Group-22" transform="translate(32.000000, 20.000000)" fill="#FFFFFF">
+                                <polygon id="Triangle" points="0 43 0 0 28 21.5"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
