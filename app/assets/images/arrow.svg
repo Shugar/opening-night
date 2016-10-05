@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="31px" viewBox="0 0 31 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>More Arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage-(Quote-1)" transform="translate(-676.000000, -666.000000)" stroke-width="2" stroke="#FFF129">
+            <g id="HERO-SECTION">
+                <g id="More-Arrow" transform="translate(677.000000, 667.000000)">
+                    <g id="Group-15" transform="translate(7.000000, 12.000000)" stroke-linecap="round">
+                        <path d="M0.4,0.388888889 L7.6,6.61111111" id="Line"></path>
+                        <path d="M7.4,0.388888889 L14.6,6.61111111" id="Line" transform="translate(11.000000, 3.500000) scale(-1, 1) translate(-11.000000, -3.500000) "></path>
+                    </g>
+                    <circle id="Oval-2" cx="14.5" cy="14.5" r="14.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
