@@ -1,3 +1,103 @@
+.quote {
+	height: 720px;
+	position: relative;
+
+	&.rob {
+		background-image: linear-gradient(-174deg, #6F26D9 0%, #4125B8 100%);
+
+		.bg {
+			background: url('../images/rob.png') no-repeat right bottom / contain;
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+	}
+
+	.content {
+		position: relative;
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: center;
+		height: 100%;
+		margin-left: 12%;
+
+		z-index: 55;
+
+		.quote-left,
+		.quote-right {
+			font-family: 'Helvetica', sans-serif;
+			font-size: 500px;
+			color: #6E3AF0;
+			letter-spacing: 0.54px;
+			line-height: 416px;
+			z-index: -1;
+			position: absolute;
+		}
+
+		.quote-left {
+			left: -16%;
+			top: -20%;
+		}
+
+		.quote-right {
+			transform: rotate(180deg);
+			left: 37%;
+			top: -90%;
+		}
+
+		.in-touch {
+			opacity: 0.8;
+			font-size: 36px;
+			color: #FFFFFF;
+			letter-spacing: 1.2px;
+
+			display: flex;
+			flex-flow: row nowrap;
+			align-items: center;
+
+			.icon {
+				background: url('../images/in-touch.png') no-repeat center center / contain;
+				height: 60px;
+				width: 60px;
+				margin-right: 25px;
+			}
+		}
+
+		.title {
+			margin-top: 31px;
+			font-weight: bold;
+			font-size: 82.36px;
+			color: #FFFFFF;
+			letter-spacing: 2.23px;
+			line-height: 92.66px;
+			position: relative;
+		}
+
+		.twitter {
+			margin-top: 22px;
+			opacity: 0.5;
+			font-family: 'Open Sans', sans-serif;
+			font-style: italic;
+			font-size: 16px;
+			color: #FFFFFF;
+			letter-spacing: 0.9px;
+
+			display: flex;
+			flex-flow: row nowrap;
+			align-items: center;
+
+			.icon {
+				margin-right: 14px;
+				background: url('../images/twitter.svg') no-repeat center center / contain;
+				width: 32px;
+				height: 26px;
+			}
+		}
+	}
+}
+
 .watch-it-now {
 	background-image: linear-gradient(-182deg, #F45232 0%, #E52816 100%);
 	padding: 22px 0;
