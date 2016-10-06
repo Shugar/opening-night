@@ -2,17 +2,45 @@
 	height: 720px;
 	position: relative;
 
-	&.rob {
-		background-image: linear-gradient(-174deg, #6F26D9 0%, #4125B8 100%);
+	.shade {
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 80px;
+		width: 100%;
+		z-index: 5;
+	}
 
-		.bg {
-			background: url('../images/rob.png') no-repeat right bottom / contain;
-			width: 100%;
-			height: 100%;
-			position: absolute;
-			left: 0;
-			top: 0;
-		}
+	.bg {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: 10;
+	}
+
+	.arrows {
+		position: absolute;
+		bottom: 10%;
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.arrow-left {
+		background: url('../images/arrow-left.svg') no-repeat center center / contain;
+		width: 31px;
+		height: 38px;
+		margin-right: 24px;
+	}
+
+	.arrow-right {
+		background: url('../images/arrow-right.svg') no-repeat center center / contain;
+		width: 31px;
+		height: 38px;
+		margin-left: 24px;
 	}
 
 	.content {
@@ -29,7 +57,6 @@
 		.quote-right {
 			font-family: 'Helvetica', sans-serif;
 			font-size: 500px;
-			color: #6E3AF0;
 			letter-spacing: 0.54px;
 			line-height: 416px;
 			z-index: -1;
@@ -43,7 +70,7 @@
 
 		.quote-right {
 			transform: rotate(180deg);
-			left: 37%;
+			right: 0%;
 			top: -90%;
 		}
 
@@ -94,6 +121,89 @@
 				width: 32px;
 				height: 26px;
 			}
+		}
+	}
+
+	&.rob {
+		background-image: linear-gradient(-174deg, #6F26D9 0%, #4125B8 100%);
+
+		.shade {
+			background: rgba(27,2,30,0.12);
+		}
+
+		.bg {
+			background: url('../images/rob.png') no-repeat right bottom / contain;
+		}
+
+		.quote-left,
+		.quote-right {
+			color: #6E3AF0;
+		}
+
+		.title {
+			width: 55%;
+		}
+	}
+
+	&.alona {
+		background-image: linear-gradient(-174deg, #FFE038 0%, #FEA345 100%);
+
+		.shade {
+			background: rgba(246,186,64,0.40);
+		}
+
+		.bg {
+			background: url('../images/alona.png') no-repeat right bottom / contain;
+		}
+
+		.quote-left,
+		.quote-right {
+			color: #FFE57A;
+		}
+
+		.quote-left {
+			left: -25%;
+		}
+
+		.quote-right {
+			right: 0%;
+			top: initial;
+			bottom: -40%;
+		}
+
+		.title {
+			width: 57%;
+		}
+	}
+
+	&.topher {
+		background-image: linear-gradient(2deg, #FA228D 0%, #FD20D4 98%);
+
+		.shade {
+			background: #F413C2;
+		}
+
+		.bg {
+			background: url('../images/topher.png') no-repeat right bottom / contain;
+		}
+
+		.quote-left,
+		.quote-right {
+			color: #FC56CE;
+		}
+
+		.quote-left {
+			left: -25%;
+		}
+
+		.quote-right {
+			right: 15%;
+			top: initial;
+			bottom: -40%;
+		}
+
+		.title {
+			width: 70%;
 		}
 	}
 }
